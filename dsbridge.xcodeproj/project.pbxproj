@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280A91E82480A3CC0023CC10 /* UIWindow+LBXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A91E12480A3CC0023CC10 /* UIWindow+LBXHierarchy.m */; };
 		8142EA1E214212E700BEE5C0 /* JsApiTestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142EA1D214212E700BEE5C0 /* JsApiTestSwift.swift */; };
 		815612EB2020304600C4F5CD /* InternalApis.m in Sources */ = {isa = PBXBuildFile; fileRef = 815612EA2020304600C4F5CD /* InternalApis.m */; };
 		815612EE202041B000C4F5CD /* DSCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 815612ED202041B000C4F5CD /* DSCallInfo.m */; };
@@ -56,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280A91E12480A3CC0023CC10 /* UIWindow+LBXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LBXHierarchy.m"; sourceTree = "<group>"; };
+		280A91E52480A3CC0023CC10 /* UIWindow+LBXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LBXHierarchy.h"; sourceTree = "<group>"; };
 		812F1D3B216F1F9D00B5BD0C /* publish.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = publish.sh; sourceTree = "<group>"; };
 		8142EA1C214212E600BEE5C0 /* dsbridgedemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dsbridgedemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8142EA1D214212E700BEE5C0 /* JsApiTestSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsApiTestSwift.swift; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 		818F0B901E18C08100679925 /* dsbridge */ = {
 			isa = PBXGroup;
 			children = (
+				280A91E52480A3CC0023CC10 /* UIWindow+LBXHierarchy.h */,
+				280A91E12480A3CC0023CC10 /* UIWindow+LBXHierarchy.m */,
 				818F0BB61E18C3B800679925 /* DWKWebView.h */,
 				818F0BB51E18C3B800679925 /* DWKWebView.m */,
 				818F0B911E18C08100679925 /* dsbridge.h */,
@@ -253,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -287,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280A91E82480A3CC0023CC10 /* UIWindow+LBXHierarchy.m in Sources */,
 				81EBBFFF1EF24DDE00D1E4C1 /* README.md in Sources */,
 				81CFC8602029456C00CF9D83 /* readme-chs.md in Sources */,
 				818F0BC01E18C59200679925 /* JSBUtil.m in Sources */,
